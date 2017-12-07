@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class SomeThing extends Thread{
     @Override
     public void run() {
@@ -24,7 +23,6 @@ class SomeThing extends Thread{
         }
         if (растояниеЗаОдинШаг<растояниеЗаОдинШаг2){
             System.out.println("Вторая лошадь победила");
-
         }
         else if (растояниеЗаОдинШаг>растояниеЗаОдинШаг2){
             System.out.println("Первая Лошадь победила");
@@ -32,8 +30,6 @@ class SomeThing extends Thread{
         else {
             System.out.println("Ничья");
         }
-
-
     }
 }
 
