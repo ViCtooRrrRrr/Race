@@ -9,7 +9,7 @@ public class Program {
         System.out.println(" Сумма ставки");
         Scanner scan = new Scanner(System.in);
         Integer ставкаБудет = scan.nextInt();
-        System.out.println("Выберите лошадь 1 или 2");
+        System.out.println("Выберите лошадь 3 или 4");
         Scanner scanner = new Scanner(System.in);
         Integer какаяЛошадь = scan.nextInt();
         int лошадь3 =1;
@@ -23,11 +23,11 @@ public class Program {
             лошадь4+=растояниеЗаОдинШаг2;
         }
         if (растояниеЗаОдинШаг<растояниеЗаОдинШаг2){
-            System.out.println(" Вторая Лошадь победила");
+            System.out.println(" Четвертая Лошадь победила");
             System.out.println();
         }
         else if (растояниеЗаОдинШаг>растояниеЗаОдинШаг2){
-            System.out.println("Первая Лошадь победила");
+            System.out.println("Третья Лошадь победила");
             System.out.println();
         }
         else {
