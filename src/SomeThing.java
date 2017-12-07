@@ -8,24 +8,24 @@ class SomeThing extends Thread{
         System.out.println(" Сумма ставки");
         Scanner scan = new Scanner(System.in);
         Integer ставкаБудет = scan.nextInt();
-        System.out.println("Выберите лошадь 1 или 2");
+        System.out.println("Выберите лошадь 3 или 4");
         Scanner scanner = new Scanner(System.in);
         Integer какаяЛошадь = scan.nextInt();
-        int лошадь =1;
-        int лошадь2 =1;
+        int лошадь3 =1;
+        int лошадь4 =1;
         long растояниеЗаОдинШаг = (long) (15 + Math.random() * 40);
         long растояниеЗаОдинШаг2 = (long) (15 + Math.random() * 40);
-        while (лошадь<1000){
-        лошадь+=растояниеЗаОдинШаг;
+        while (лошадь3<1000){
+        лошадь3+=растояниеЗаОдинШаг;
         }
-        while (лошадь2<1000){
-            лошадь2+=растояниеЗаОдинШаг2;
+        while (лошадь4<1000){
+            лошадь4+=растояниеЗаОдинШаг2;
         }
         if (растояниеЗаОдинШаг<растояниеЗаОдинШаг2){
-            System.out.println("Вторая лошадь победила");
+            System.out.println("Четвертая лошадь победила");
         }
         else if (растояниеЗаОдинШаг>растояниеЗаОдинШаг2){
-            System.out.println("Первая Лошадь победила");
+            System.out.println("Третья Лошадь победила");
         }
         else {
             System.out.println("Ничья");
